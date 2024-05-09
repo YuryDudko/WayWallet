@@ -1,0 +1,389 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Project OOP\\TestApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|c:\\project oop\\testapp\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|c:\\project oop\\testapp\\infrastructure\\database.db||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\database.db||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|c:\\project oop\\testapp\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|c:\\project oop\\testapp\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\project oop\\testapp\\application\\loginrequests\\loginuserrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\loginrequests\\loginuserrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|c:\\project oop\\testapp\\webapplication1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\project oop\\testapp\\application\\walletadditionrequests\\walletadditionrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\walletadditionrequests\\walletadditionrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|c:\\project oop\\testapp\\webapplication1\\controllers\\walletadditioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\walletadditioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|c:\\project oop\\testapp\\webapplication1\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|c:\\project oop\\testapp\\domain\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|solutionrelative:domain\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|c:\\project oop\\testapp\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\project oop\\testapp\\application\\loginrequests\\loginuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\loginrequests\\loginuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\project oop\\testapp\\application\\walletadditionrequests\\walletadditionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\walletadditionrequests\\walletadditionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|c:\\project oop\\testapp\\infrastructure\\userrepositorylocalstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\userrepositorylocalstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\project oop\\testapp\\application\\registrationrequests\\registeruserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\registrationrequests\\registeruserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|c:\\project oop\\testapp\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BACD9B6-EFCE-4997-B583-E9AD704916CF}|TestApp\\TestApp.csproj|c:\\project oop\\testapp\\testapp\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BACD9B6-EFCE-4997-B583-E9AD704916CF}|TestApp\\TestApp.csproj|solutionrelative:testapp\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BACD9B6-EFCE-4997-B583-E9AD704916CF}|TestApp\\TestApp.csproj|c:\\project oop\\testapp\\testapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BACD9B6-EFCE-4997-B583-E9AD704916CF}|TestApp\\TestApp.csproj|solutionrelative:testapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|c:\\project oop\\testapp\\infrastructure\\walletrepositorylocalstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\walletrepositorylocalstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\project oop\\testapp\\application\\exceptions\\nullwalletexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\exceptions\\nullwalletexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|c:\\project oop\\testapp\\webapplication1\\controllers\\registercontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\registercontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|c:\\project oop\\testapp\\domain\\iwalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|solutionrelative:domain\\iwalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|c:\\project oop\\testapp\\domain\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|solutionrelative:domain\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T09:46:00.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Database.db",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Infrastructure\\Database.db",
+              "RelativeDocumentMoniker": "Infrastructure\\Database.db",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Infrastructure\\Database.db",
+              "RelativeToolTip": "Infrastructure\\Database.db",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI8SURBVDhPdVNLT1NBGD3a23gJKaJUwsIEUaMoL2NsGyqxoCYEDRuKi0ZW3WHkL0D8BWqkJsLKQlsX9bGrNhqqRKRutCVp1BhFEiUxVyVx0Ud67/DN3EcvsZ7ck2/uN9/MnDkzswsGYrEY0xgD0zQwippGbabBzPEoORxb5Upl6Nrk5HsxiBeaWFhcZKqqWqxyVmuMx\u002BOsUCiwufn5P3dmI6eMYdhtRLEKh0pRVTlVQZpIkMPtduOs398sSdKSSBBqE5hqKJBovW1B/49Go0ilUihXys0iQZCMKPbMYQ7OrmaRza7C6/PBRxwbC4oe8gGzkYio4bApIPOM9v3oAppa23DpSgiyuw13781ZfRwa1ZqwJuAu86p8Lg//uQA6D7cjt/IKPUcOof/CMNbyearSp6HjEpHjHxMzmSU0NjTgUTKJUCiEJw\u002BT2OtyUT5DKkXJjtPbqYAQGBxEsVhEcHwciUQCl0dHsf5tA1W5CS\u002BWV1AqlcivOlvQZTH09vTi9fJLfF7fgGcggHcfvkBpbEc4HIay/zje5tb\u002Bp0A3kXPi6gSUzR94/CCON3Qaw8da8PzrX4x0HsD3n7/rm1i7BxSJHq8X16em4OnrRvrTL1zscOHpRwVn\u002Brrqmyjugf4JmjjdfQL7lALSz9Locm7hYGuL5ReHTUFNlgAVcVV7ZBlDA/0IjpzHyaMdkOnfXmvzgN9BenGSQ6dTgrMORa1tC9ZzvnnrNm2NjKROvjI/KhGNnFiA2vozZ7gxM01jgW0oG0\u002BFgH6cagAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-05-06T09:44:47.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T09:43:15.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-06T09:40:41.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginUserRequestHandler.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Application\\LoginRequests\\LoginUserRequestHandler.cs",
+              "RelativeDocumentMoniker": "Application\\LoginRequests\\LoginUserRequestHandler.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Application\\LoginRequests\\LoginUserRequestHandler.cs",
+              "RelativeToolTip": "Application\\LoginRequests\\LoginUserRequestHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T17:47:43.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\WebApplication1\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\WebApplication1\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T08:29:23.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WalletAdditionRequestHandler.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Application\\WalletAdditionRequests\\WalletAdditionRequestHandler.cs",
+              "RelativeDocumentMoniker": "Application\\WalletAdditionRequests\\WalletAdditionRequestHandler.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Application\\WalletAdditionRequests\\WalletAdditionRequestHandler.cs",
+              "RelativeToolTip": "Application\\WalletAdditionRequests\\WalletAdditionRequestHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T07:49:42.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Domain\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\IUserRepository.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Domain\\IUserRepository.cs",
+              "RelativeToolTip": "Domain\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T08:49:21.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HttpContextExtensions.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\WebApplication1\\HttpContextExtensions.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\HttpContextExtensions.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\WebApplication1\\HttpContextExtensions.cs",
+              "RelativeToolTip": "WebApplication1\\HttpContextExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T08:22:57.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WalletAdditionController.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\WebApplication1\\Controllers\\WalletAdditionController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WalletAdditionController.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\WebApplication1\\Controllers\\WalletAdditionController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\WalletAdditionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T07:44:20.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WalletAdditionRequest.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Application\\WalletAdditionRequests\\WalletAdditionRequest.cs",
+              "RelativeDocumentMoniker": "Application\\WalletAdditionRequests\\WalletAdditionRequest.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Application\\WalletAdditionRequests\\WalletAdditionRequest.cs",
+              "RelativeToolTip": "Application\\WalletAdditionRequests\\WalletAdditionRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T07:48:59.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginUserRequest.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Application\\LoginRequests\\LoginUserRequest.cs",
+              "RelativeDocumentMoniker": "Application\\LoginRequests\\LoginUserRequest.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Application\\LoginRequests\\LoginUserRequest.cs",
+              "RelativeToolTip": "Application\\LoginRequests\\LoginUserRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T13:57:00.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\User.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Domain\\User.cs",
+              "RelativeToolTip": "Domain\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:40:21.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserRepositoryLocalStorage.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Infrastructure\\UserRepositoryLocalStorage.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\UserRepositoryLocalStorage.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Infrastructure\\UserRepositoryLocalStorage.cs",
+              "RelativeToolTip": "Infrastructure\\UserRepositoryLocalStorage.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T08:43:43.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterUserRequest.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Application\\RegistrationRequests\\RegisterUserRequest.cs",
+              "RelativeDocumentMoniker": "Application\\RegistrationRequests\\RegisterUserRequest.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Application\\RegistrationRequests\\RegisterUserRequest.cs",
+              "RelativeToolTip": "Application\\RegistrationRequests\\RegisterUserRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T13:57:12.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T14:09:08.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\TestApp\\Startup.cs",
+              "RelativeDocumentMoniker": "TestApp\\Startup.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\TestApp\\Startup.cs",
+              "RelativeToolTip": "TestApp\\Startup.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwEQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T14:15:27.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\TestApp\\Program.cs",
+              "RelativeDocumentMoniker": "TestApp\\Program.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\TestApp\\Program.cs",
+              "RelativeToolTip": "TestApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T14:31:48.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WalletRepositoryLocalStorage.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Infrastructure\\WalletRepositoryLocalStorage.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\WalletRepositoryLocalStorage.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Infrastructure\\WalletRepositoryLocalStorage.cs",
+              "RelativeToolTip": "Infrastructure\\WalletRepositoryLocalStorage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:07:24.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NullWalletException.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Application\\Exceptions\\NullWalletException.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\NullWalletException.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Application\\Exceptions\\NullWalletException.cs",
+              "RelativeToolTip": "Application\\Exceptions\\NullWalletException.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T06:59:09.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterContoller.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\WebApplication1\\Controllers\\RegisterContoller.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\RegisterContoller.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\WebApplication1\\Controllers\\RegisterContoller.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\RegisterContoller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T08:38:21.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IWalletRepository.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Domain\\IWalletRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\IWalletRepository.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Domain\\IWalletRepository.cs",
+              "RelativeToolTip": "Domain\\IWalletRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T07:10:18.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "C:\\Project OOP\\TestApp\\Domain\\Wallet.cs",
+              "RelativeDocumentMoniker": "Domain\\Wallet.cs",
+              "ToolTip": "C:\\Project OOP\\TestApp\\Domain\\Wallet.cs",
+              "RelativeToolTip": "Domain\\Wallet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T06:55:16.819Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

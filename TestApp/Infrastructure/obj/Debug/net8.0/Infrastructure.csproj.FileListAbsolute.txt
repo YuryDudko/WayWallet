@@ -1,0 +1,17 @@
+C:\Project OOP\TestApp\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Project OOP\TestApp\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Project OOP\TestApp\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Project OOP\TestApp\Infrastructure\bin\Debug\net8.0\Application.dll
+C:\Project OOP\TestApp\Infrastructure\bin\Debug\net8.0\Domain.dll
+C:\Project OOP\TestApp\Infrastructure\bin\Debug\net8.0\Application.pdb
+C:\Project OOP\TestApp\Infrastructure\bin\Debug\net8.0\Domain.pdb
+C:\Project OOP\TestApp\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Project OOP\TestApp\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project OOP\TestApp\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Project OOP\TestApp\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Project OOP\TestApp\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Project OOP\TestApp\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Project OOP\TestApp\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Project OOP\TestApp\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Project OOP\TestApp\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Project OOP\TestApp\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
