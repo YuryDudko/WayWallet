@@ -13,4 +13,5 @@ public class User
     public string Password { get; set; }
     public string Email { get; set; }
     public UserRole Role { get; set; }
+    public List<Wallet> Wallets { get; set; } = new();
 }

@@ -8,4 +8,5 @@ public sealed record WalletAdditionRequest : IRequest<Wallet>
     public string walletName { get; set; }
     public string keyPhrase { get; set; }
     public int UserId { get; set; }
+    public string UserName { get; set; }
 }

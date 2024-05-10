@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:lolitorch/registration.dart';
 import 'package:lolitorch/login.dart';
+import 'package:lolitorch/addWallet.dart';
 
 
 void main() {
@@ -147,7 +148,7 @@ class _LoginPageState extends State<LoginPage>{
                     Navigator.pushReplacement(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => NavigationPage(),
+                        builder: (context) => AddWalletPage(username: _loginController.text),
                       ),
                     );
                   }
@@ -172,6 +173,79 @@ class _LoginPageState extends State<LoginPage>{
   }
 }
 
+class AddWalletPage extends StatefulWidget{
+  final String username;
+
+  const AddWalletPage({required this.username});
+
+  @override
+  _AddWalletPageState createState() => _AddWalletPageState();
+}
+
+class _AddWalletPageState extends State<AddWalletPage>{
+  late String username;
+
+  @override
+  void initState() {
+    super.initState();
+    username = widget.username;
+  }
+
+  final TextEditingController _WalletNameController = TextEditingController();
+  final TextEditingController _KeyPhraseController = TextEditingController();
+
+  @override
+  Widget build(BuildContext context){
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Wallet Addition'),
+      ),
+      body: Padding(
+        padding: EdgeInsets.symmetric(vertical: 10 , horizontal: 10),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            TextField(
+              controller: _WalletNameController,
+              decoration: InputDecoration(
+                labelText: 'Wallet Name',
+                
+              ),
+            ),
+            SizedBox(height: 8.0),
+            TextField(
+              controller: _KeyPhraseController,
+              decoration: InputDecoration(
+                labelText: 'Key Phrase',
+                //contentPadding: EdgeInsets.symmetric( vertical: 15 , horizontal: 40)
+              ),
+              obscureText: true,
+            ),
+            
+            
+            SizedBox(height: 8.0),
+            SizedBox(height: 60.0, width: 135.0,
+              child: ElevatedButton(
+                onPressed: () async {
+                  var result = await addWallet(_WalletNameController.text, _KeyPhraseController.text , username);
+                  if(result == 200){
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => NavigationPage(),
+                      ),
+                    );
+                  }
+                },
+                child: Text('Add Wallet'),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
 
 class NavigationPage extends StatefulWidget {
   @override

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project OOP\\TestApp\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\ProjectForOOP\\TestApp\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Project OOP\\TestApp\\Application\\Application.csproj": {
+    "C:\\ProjectForOOP\\TestApp\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project OOP\\TestApp\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\ProjectForOOP\\TestApp\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Project OOP\\TestApp\\Application\\Application.csproj",
+        "projectPath": "C:\\ProjectForOOP\\TestApp\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Юрий\\.nuget\\packages\\",
-        "outputPath": "C:\\Project OOP\\TestApp\\Application\\obj\\",
+        "outputPath": "C:\\ProjectForOOP\\TestApp\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Project OOP\\TestApp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Project OOP\\TestApp\\Domain\\Domain.csproj"
+              "C:\\ProjectForOOP\\TestApp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\ProjectForOOP\\TestApp\\Domain\\Domain.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Project OOP\\TestApp\\Domain\\Domain.csproj": {
+    "C:\\ProjectForOOP\\TestApp\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project OOP\\TestApp\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\ProjectForOOP\\TestApp\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Project OOP\\TestApp\\Domain\\Domain.csproj",
+        "projectPath": "C:\\ProjectForOOP\\TestApp\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Юрий\\.nuget\\packages\\",
-        "outputPath": "C:\\Project OOP\\TestApp\\Domain\\obj\\",
+        "outputPath": "C:\\ProjectForOOP\\TestApp\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -124,6 +124,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -144,14 +150,14 @@
         }
       }
     },
-    "C:\\Project OOP\\TestApp\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\ProjectForOOP\\TestApp\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project OOP\\TestApp\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Project OOP\\TestApp\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Юрий\\.nuget\\packages\\",
-        "outputPath": "C:\\Project OOP\\TestApp\\Infrastructure\\obj\\",
+        "outputPath": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -173,11 +179,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Project OOP\\TestApp\\Application\\Application.csproj": {
-                "projectPath": "C:\\Project OOP\\TestApp\\Application\\Application.csproj"
+              "C:\\ProjectForOOP\\TestApp\\Application\\Application.csproj": {
+                "projectPath": "C:\\ProjectForOOP\\TestApp\\Application\\Application.csproj"
               },
-              "C:\\Project OOP\\TestApp\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Project OOP\\TestApp\\Domain\\Domain.csproj"
+              "C:\\ProjectForOOP\\TestApp\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\ProjectForOOP\\TestApp\\Domain\\Domain.csproj"
               }
             }
           }
@@ -198,6 +204,18 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.4, )"
             }

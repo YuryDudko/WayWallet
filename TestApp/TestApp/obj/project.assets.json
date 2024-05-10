@@ -4930,11 +4930,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project OOP\\TestApp\\TestApp\\TestApp.csproj",
+      "projectUniqueName": "C:\\ProjectForOOP\\TestApp\\TestApp\\TestApp.csproj",
       "projectName": "TestApp",
-      "projectPath": "C:\\Project OOP\\TestApp\\TestApp\\TestApp.csproj",
+      "projectPath": "C:\\ProjectForOOP\\TestApp\\TestApp\\TestApp.csproj",
       "packagesPath": "C:\\Users\\Юрий\\.nuget\\packages\\",
-      "outputPath": "C:\\Project OOP\\TestApp\\TestApp\\obj\\",
+      "outputPath": "C:\\ProjectForOOP\\TestApp\\TestApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

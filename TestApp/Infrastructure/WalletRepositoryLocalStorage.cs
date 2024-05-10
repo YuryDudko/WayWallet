@@ -1,33 +1,43 @@
 ﻿using Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure;
 
 public class WalletRepositoryLocalStorage: IWalletRepository
 {
-    private readonly List<Wallet> _wallets = new List<Wallet>();
+    private readonly AppDbContext _context;
 
-    public Task UpdateWalletBalance(Wallet wallet , int NewWalletBalance)
+    public WalletRepositoryLocalStorage(AppDbContext context)
     {
-        wallet.WalletBalance = NewWalletBalance;
-        return Task.CompletedTask;
+        _context = context;
     }
-    public Task RenameWallet(Wallet wallet , string NewWalletName)
+
+    public async Task UpdateWalletBalance(Wallet wallet, int newWalletBalance)
     {
-        wallet.WalletName = NewWalletName;
-        return Task.CompletedTask;
+        wallet.WalletBalance = newWalletBalance;
+        await _context.SaveChangesAsync();
     }
-    public Wallet GetWalletByName(string walletname)
+
+    public async Task RenameWallet(Wallet wallet, string newWalletName)
     {
-        return _wallets.FirstOrDefault(u => u.WalletName == walletname);
+        wallet.WalletName = newWalletName;
+        await _context.SaveChangesAsync();
     }
-    public Task DeleteWalletAsync(Wallet wallet)
+
+    public async Task<Wallet> GetWalletByName(string walletName)
     {
-        _wallets.Remove(wallet);
-        return Task.CompletedTask;
+        return await _context.Wallets.FirstOrDefaultAsync(w => w.WalletName == walletName);
     }
-    public Task AddWalletAsync(Wallet wallet)
+
+    public async Task DeleteWalletAsync(Wallet wallet)
     {
-        _wallets.Add(wallet);
-        return Task.CompletedTask;
+        _context.Wallets.Remove(wallet);
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task AddWalletAsync(Wallet wallet)
+    {
+        _context.Wallets.Add(wallet);
+        await _context.SaveChangesAsync();
     }
 }

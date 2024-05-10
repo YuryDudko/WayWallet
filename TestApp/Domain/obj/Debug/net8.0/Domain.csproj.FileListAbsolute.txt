@@ -9,3 +9,16 @@ C:\Project OOP\TestApp\Domain\obj\Debug\net8.0\Domain.dll
 C:\Project OOP\TestApp\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Project OOP\TestApp\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Project OOP\TestApp\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\ProjectForOOP\TestApp\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\ProjectForOOP\TestApp\Domain\bin\Debug\net8.0\Domain.dll
+C:\ProjectForOOP\TestApp\Domain\bin\Debug\net8.0\Domain.pdb
+C:\ProjectForOOP\TestApp\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\ProjectForOOP\TestApp\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectForOOP\TestApp\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\ProjectForOOP\TestApp\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\ProjectForOOP\TestApp\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\ProjectForOOP\TestApp\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\ProjectForOOP\TestApp\Domain\obj\Debug\net8.0\Domain.dll
+C:\ProjectForOOP\TestApp\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\ProjectForOOP\TestApp\Domain\obj\Debug\net8.0\Domain.pdb
+C:\ProjectForOOP\TestApp\Domain\obj\Debug\net8.0\ref\Domain.dll

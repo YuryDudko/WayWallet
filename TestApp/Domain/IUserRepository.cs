@@ -7,5 +7,7 @@ public interface IUserRepository
     public User GetUserByUsernameAndPassword(string username, string password);
     public User GetUserByEmailAndPassword(string email, string password);
     public User GetUserById(int id);
-    
+    public User GetUserByName(string name);
+
+
 }
