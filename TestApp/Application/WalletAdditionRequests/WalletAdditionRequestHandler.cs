@@ -4,7 +4,7 @@ using MediatR;
 
 namespace Application.WalletAdditionRequests;
 
-public class WalletAdditionRequestHandler (IWalletRepository walletRepository, IUserRepository userRepository , ICryptoCurrencyRepository cryptoCurrencyRepository) : IRequestHandler<WalletAdditionRequest, Wallet>
+public class WalletAdditionRequestHandler (IWalletRepository walletRepository, IUserRepository userRepository , ICryptoCurrencyRepository cryptoCurrencyRepository , IRateRepository rateRepository) : IRequestHandler<WalletAdditionRequest, Wallet>
 {
     public async Task<Wallet> Handle(WalletAdditionRequest request, CancellationToken cancellationToken)
     {
@@ -20,16 +20,32 @@ public class WalletAdditionRequestHandler (IWalletRepository walletRepository, I
         wallet.UserId = user.Id;
         await walletRepository.AddWalletAsync(wallet);
 
-        var cryptoCurrency = new CryptoCurrency();
-        cryptoCurrency.CurrencyName = "Bitcoin";
-        cryptoCurrency.CurrencyAmount = 2.34;
-        cryptoCurrency.WalletId = wallet.Id;
-        cryptoCurrency.RateId = 1;
-        cryptoCurrency.CurrencyAdress = "adress";
-        cryptoCurrency.CurrencyCode = "BTC";
-        //proba izmenit
-        await cryptoCurrencyRepository.AddCryptoCurrencyAsync(cryptoCurrency);
+        var rates = await rateRepository.GetAllRatesAsync();
+        var firstSevenRates = rates.Take(7).ToList();
+
+        foreach (var rate in firstSevenRates)
+        {
+            var cryptoCurrency = new CryptoCurrency
+            {
+                CurrencyName = rate.Name,
+                CurrencyAmount = 0.0,
+                WalletId = wallet.Id,
+                RateId = rate.Id,
+                CurrencyAdress = GenerateRandomAddress(),
+                CurrencyCode = rate.Symbol
+            };
+
+            await cryptoCurrencyRepository.AddCryptoCurrencyAsync(cryptoCurrency);
+        }
+
 
         return wallet;
+    }
+
+    private string GenerateRandomAddress()
+    {
+        var random = new Random();
+        const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        return new string(Enumerable.Repeat(chars, 24).Select(s => s[random.Next(s.Length)]).ToArray());
     }
 }

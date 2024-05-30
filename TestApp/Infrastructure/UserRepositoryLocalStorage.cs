@@ -1,4 +1,5 @@
 ﻿using Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure;
 
@@ -22,15 +23,16 @@ public class UserRepositoryLocalStorage : IUserRepository
         await _context.SaveChangesAsync();
     }
 
-    public User GetUserByUsernameAndPassword(string username, string password)
+    public async Task<User> GetUserByUsernameAndPasswordAsync(string username, string password)
     {
-        return _context.Users.FirstOrDefault(u => u.Username == username && u.Password == password);
+        return await _context.Users.FirstOrDefaultAsync(u => u.Username == username && u.Password == password);
     }
 
-    public User GetUserByEmailAndPassword(string email, string password)
+    public async Task<User> GetUserByEmailAndPasswordAsync(string email, string password)
     {
-        return _context.Users.FirstOrDefault(u => u.Email == email && u.Password == password);
+        return await _context.Users.FirstOrDefaultAsync(u => u.Email == email && u.Password == password);
     }
+
 
     public User GetUserById(int id)
     {
@@ -39,5 +41,10 @@ public class UserRepositoryLocalStorage : IUserRepository
     public User GetUserByName(string  name)
     {
         return _context.Users.FirstOrDefault(u => u.Username == name);
+    }
+
+    public async Task<User> GetUserByIdAsync(int id) // Асинхронный метод
+    {
+        return await _context.Users.FindAsync(id);
     }
 }

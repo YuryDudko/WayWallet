@@ -10,3 +10,11 @@ public class Wallet
     public string KeyPhrase { get; set; }
     public List<CryptoCurrency> CryptoCurrencies { get; set; } = new();
 }
+
+public class WalletInfo
+{
+    public string WalletName { get; set; }
+    public double WalletBalance { get; set; }
+    public string KeyPhrase { get; set; }
+}
+

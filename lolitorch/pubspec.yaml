@@ -31,6 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^1.2.1
+  shared_preferences: ^2.0.6
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -62,6 +63,18 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/icons/8546828_bitcoin_icon.png
+    - assets/icons/4511328_adoption_coin_cryptocurrency_ecosystem_tether_icon.png
+    - assets/icons/1175206_tether_usdt_icon.png
+    - assets/icons/1175229_eth_ether_ethereum_icon.png
+    - assets/icons/9297384_sol_blockchain_coins_cryptocurrency_crypto_icon.png
+    - assets/icons/9297461_bnb_blockchain_coins_cryptocurrency_crypto_icon.png
+    - assets/icons/9297485_usdc_blockchain_coins_cryptocurrency_crypto_icon.png
+    - assets/icons/9422193_ldo_cryptocurrency_coin_crypto_lido_dao_icon.png
+    - assets/icons/1608712_usd_icon.png
+    - assets/icons/2203530_connect_direction_path_way_icon.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

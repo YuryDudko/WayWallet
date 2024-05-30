@@ -40,4 +40,9 @@ public class WalletRepositoryLocalStorage: IWalletRepository
         _context.Wallets.Add(wallet);
         await _context.SaveChangesAsync();
     }
+
+    public async Task<Wallet> GetWalletByUserId(int userId)
+    {
+        return await _context.Wallets.FirstOrDefaultAsync(w => w.UserId == userId);
+    }
 }

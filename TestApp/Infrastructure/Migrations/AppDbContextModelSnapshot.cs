@@ -15,7 +15,7 @@ namespace Infrastructure.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "8.0.4");
+            modelBuilder.HasAnnotation("ProductVersion", "8.0.5");
 
             modelBuilder.Entity("Domain.CryptoCurrency", b =>
                 {
@@ -53,24 +53,266 @@ namespace Infrastructure.Migrations
                     b.ToTable("CryptoCurrencies");
                 });
 
+            modelBuilder.Entity("Domain.Exchange", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("CryptocurrencyAbbreviationFirst")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CryptocurrencyAbbreviationSecond")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("ExchangeAmountFirst")
+                        .HasColumnType("REAL");
+
+                    b.Property<double>("ExchangeAmountSecond")
+                        .HasColumnType("REAL");
+
+                    b.Property<DateTime>("ExchangeDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ExchangeName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Exchanges");
+                });
+
+            modelBuilder.Entity("Domain.FinanceSystem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<double>("Balance")
+                        .HasColumnType("REAL");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("TransactionFee")
+                        .HasColumnType("REAL");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("FinanceSystems");
+                });
+
+            modelBuilder.Entity("Domain.Network", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<double>("NetworkGas")
+                        .HasColumnType("REAL");
+
+                    b.Property<int>("NetworkLoad")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("NetworkName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Networks");
+                });
+
+            modelBuilder.Entity("Domain.News", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("OnModeration")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("News");
+                });
+
+            modelBuilder.Entity("Domain.Purchase", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("CryptoAbbreviation")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int?>("FinanceSystemId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("OrderAmount")
+                        .HasColumnType("REAL");
+
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("PurchaseAmount")
+                        .HasColumnType("REAL");
+
+                    b.Property<double>("PurchaseRateValue")
+                        .HasColumnType("REAL");
+
+                    b.Property<string>("ReceiverAdress")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FinanceSystemId");
+
+                    b.ToTable("Purchases");
+                });
+
             modelBuilder.Entity("Domain.Rate", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<double>("ActualValue")
+                    b.Property<int>("CoinId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("FinanceSystemId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("PercentChange1h")
                         .HasColumnType("REAL");
 
-                    b.Property<double>("LastValue")
+                    b.Property<double>("PercentChange24h")
                         .HasColumnType("REAL");
 
-                    b.Property<double>("ValuesSpread")
+                    b.Property<double>("PercentChange7d")
                         .HasColumnType("REAL");
+
+                    b.Property<double>("PriceBtc")
+                        .HasColumnType("REAL");
+
+                    b.Property<double>("PriceUsd")
+                        .HasColumnType("REAL");
+
+                    b.Property<int>("Rank")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Symbol")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("FinanceSystemId");
+
                     b.ToTable("Rates");
+                });
+
+            modelBuilder.Entity("Domain.Sale", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("CryptoAbbreviation")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int?>("FinanceSystemId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("OrderAmount")
+                        .HasColumnType("REAL");
+
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("SaleAmount")
+                        .HasColumnType("REAL");
+
+                    b.Property<double>("SaleRateValue")
+                        .HasColumnType("REAL");
+
+                    b.Property<string>("SenderAdress")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FinanceSystemId");
+
+                    b.ToTable("Sales");
+                });
+
+            modelBuilder.Entity("Domain.TransactionHistory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("Amount")
+                        .HasColumnType("REAL");
+
+                    b.Property<string>("CryptoAbbreviation")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("EquivalentAmount")
+                        .HasColumnType("REAL");
+
+                    b.Property<DateTime>("TransactionDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("TransactionType")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TransactionHistorys");
                 });
 
             modelBuilder.Entity("Domain.Transfer", b =>
@@ -79,8 +321,13 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("ClaimerId")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("ClaimerAdress")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CryptoAbbreviation")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<DateTime>("DateTime")
                         .HasColumnType("TEXT");
@@ -89,17 +336,14 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("SenderId")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("SenderAdress")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<double>("TransferAmount")
                         .HasColumnType("REAL");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ClaimerId");
-
-                    b.HasIndex("SenderId");
 
                     b.ToTable("Transfers");
                 });
@@ -163,41 +407,52 @@ namespace Infrastructure.Migrations
                         .WithMany()
                         .HasForeignKey("RateId");
 
-                    b.HasOne("Domain.Wallet", "Wallet")
+                    b.HasOne("Domain.Wallet", null)
                         .WithMany("CryptoCurrencies")
                         .HasForeignKey("WalletId");
 
                     b.Navigation("Rate");
-
-                    b.Navigation("Wallet");
                 });
 
-            modelBuilder.Entity("Domain.Transfer", b =>
+            modelBuilder.Entity("Domain.Purchase", b =>
                 {
-                    b.HasOne("Domain.Wallet", "Claimer")
-                        .WithMany()
-                        .HasForeignKey("ClaimerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasOne("Domain.FinanceSystem", "FinanceSystem")
+                        .WithMany("Purchases")
+                        .HasForeignKey("FinanceSystemId");
 
-                    b.HasOne("Domain.Wallet", "Sender")
-                        .WithMany()
-                        .HasForeignKey("SenderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("FinanceSystem");
+                });
 
-                    b.Navigation("Claimer");
+            modelBuilder.Entity("Domain.Rate", b =>
+                {
+                    b.HasOne("Domain.FinanceSystem", null)
+                        .WithMany("Rates")
+                        .HasForeignKey("FinanceSystemId");
+                });
 
-                    b.Navigation("Sender");
+            modelBuilder.Entity("Domain.Sale", b =>
+                {
+                    b.HasOne("Domain.FinanceSystem", "FinanceSystem")
+                        .WithMany("Sales")
+                        .HasForeignKey("FinanceSystemId");
+
+                    b.Navigation("FinanceSystem");
                 });
 
             modelBuilder.Entity("Domain.Wallet", b =>
                 {
-                    b.HasOne("Domain.User", "User")
+                    b.HasOne("Domain.User", null)
                         .WithMany("Wallets")
                         .HasForeignKey("UserId");
+                });
 
-                    b.Navigation("User");
+            modelBuilder.Entity("Domain.FinanceSystem", b =>
+                {
+                    b.Navigation("Purchases");
+
+                    b.Navigation("Rates");
+
+                    b.Navigation("Sales");
                 });
 
             modelBuilder.Entity("Domain.User", b =>

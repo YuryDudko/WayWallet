@@ -8,5 +8,6 @@ public interface IWalletRepository
     public Task RenameWallet(Wallet wallet , string NewWalletName);
     public Task DeleteWalletAsync(Wallet wallet);    
     public Task AddWalletAsync(Wallet wallet);
+    public Task<Wallet> GetWalletByUserId(int userId); // Новый метод
 
 }

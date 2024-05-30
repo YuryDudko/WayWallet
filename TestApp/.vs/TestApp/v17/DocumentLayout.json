@@ -3,104 +3,60 @@
   "WorkspaceRootPath": "C:\\ProjectForOOP\\TestApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\projectforoop\\testapp\\application\\walletadditionrequests\\walletadditionrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\walletadditionrequests\\walletadditionrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|c:\\projectforoop\\testapp\\domain\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|solutionrelative:domain\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\projectforoop\\testapp\\application\\loginrequests\\loginuserrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\loginrequests\\loginuserrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|c:\\projectforoop\\testapp\\infrastructure\\walletrepositorylocalstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\walletrepositorylocalstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|c:\\projectforoop\\testapp\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|c:\\projectforoop\\testapp\\domain\\cryptocurrency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|solutionrelative:domain\\cryptocurrency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|c:\\projectforoop\\testapp\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|c:\\projectforoop\\testapp\\webapplication1\\controllers\\walletadditioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\walletadditioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|c:\\projectforoop\\testapp\\webapplication1\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\newscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|c:\\projectforoop\\testapp\\infrastructure\\cryptocurrencyrepositorylocalstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\cryptocurrencyrepositorylocalstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|c:\\projectforoop\\testapp\\infrastructure\\newsrepositorylocalstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\newsrepositorylocalstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|c:\\projectforoop\\testapp\\domain\\icryptocurrencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|solutionrelative:domain\\icryptocurrencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\projectforoop\\testapp\\application\\newsrequests\\createnewscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\newsrequests\\createnewscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|c:\\projectforoop\\testapp\\infrastructure\\userrepositorylocalstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\userrepositorylocalstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|c:\\projectforoop\\testapp\\domain\\inewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|solutionrelative:domain\\inewsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|c:\\projectforoop\\testapp\\domain\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|solutionrelative:domain\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\projectforoop\\testapp\\application\\newsrequests\\createnewsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\newsrequests\\createnewsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\projectforoop\\testapp\\application\\walletadditionrequests\\walletadditionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\walletadditionrequests\\walletadditionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|c:\\projectforoop\\testapp\\domain\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|solutionrelative:domain\\news.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\projectforoop\\testapp\\application\\loginrequests\\loginuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\loginrequests\\loginuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|c:\\projectforoop\\testapp\\webapplication1\\controllers\\getuserinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\getuserinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\projectforoop\\testapp\\application\\registrationrequests\\registeruserrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\registrationrequests\\registeruserrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|c:\\projectforoop\\testapp\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\projectforoop\\testapp\\application\\loginrequests\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\loginrequests\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|c:\\projectforoop\\testapp\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|c:\\projectforoop\\testapp\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\projectforoop\\testapp\\application\\userinforequests\\userinforequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\userinforequests\\userinforequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|c:\\projectforoop\\testapp\\domain\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|solutionrelative:domain\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|c:\\projectforoop\\testapp\\webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|c:\\projectforoop\\testapp\\infrastructure\\userrepositorylocalstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75113D46-5466-47FF-A5F3-96294990BA33}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\userrepositorylocalstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|c:\\projectforoop\\testapp\\webapplication1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\projectforoop\\testapp\\application\\userinforequests\\userinforequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\userinforequests\\userinforequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|c:\\projectforoop\\testapp\\webapplication1\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4E0A461-E7F0-4BCA-B547-64B88A7FEA88}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\projectforoop\\testapp\\application\\userinforequests\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\userinforequests\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|c:\\projectforoop\\testapp\\domain\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|solutionrelative:domain\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|c:\\projectforoop\\testapp\\domain\\iwalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F6FA6E8-1DE3-4B66-8393-C17579E83786}|Domain\\Domain.csproj|solutionrelative:domain\\iwalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|c:\\projectforoop\\testapp\\application\\loginrequests\\loginuserrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1AEDEC-C6EB-42F3-92DF-D6AD7E937E36}|Application\\Application.csproj|solutionrelative:application\\loginrequests\\loginuserrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,123 +66,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WalletAdditionRequestHandler.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Application\\WalletAdditionRequests\\WalletAdditionRequestHandler.cs",
-              "RelativeDocumentMoniker": "Application\\WalletAdditionRequests\\WalletAdditionRequestHandler.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Application\\WalletAdditionRequests\\WalletAdditionRequestHandler.cs",
-              "RelativeToolTip": "Application\\WalletAdditionRequests\\WalletAdditionRequestHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T19:46:15.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WalletAdditionController.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\WebApplication1\\Controllers\\WalletAdditionController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WalletAdditionController.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\WebApplication1\\Controllers\\WalletAdditionController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\WalletAdditionController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T20:54:10.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CryptoCurrency.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Domain\\CryptoCurrency.cs",
-              "RelativeDocumentMoniker": "Domain\\CryptoCurrency.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Domain\\CryptoCurrency.cs",
-              "RelativeToolTip": "Domain\\CryptoCurrency.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Title": "CreateNewsRequest.cs",
+              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Application\\NewsRequests\\CreateNewsRequest.cs",
+              "RelativeDocumentMoniker": "Application\\NewsRequests\\CreateNewsRequest.cs",
+              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Application\\NewsRequests\\CreateNewsRequest.cs",
+              "RelativeToolTip": "Application\\NewsRequests\\CreateNewsRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:08:54.258Z",
+              "WhenOpened": "2024-05-30T08:48:33.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Wallet.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Domain\\Wallet.cs",
-              "RelativeDocumentMoniker": "Domain\\Wallet.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Domain\\Wallet.cs",
-              "RelativeToolTip": "Domain\\Wallet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAGAAAA",
+              "Title": "NewsController.cs",
+              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\WebApplication1\\Controllers\\NewsController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\NewsController.cs",
+              "ToolTip": "C:\\ProjectForOOP\\TestApp\\WebApplication1\\Controllers\\NewsController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\NewsController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowEAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T06:55:16.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Domain\\User.cs",
-              "RelativeDocumentMoniker": "Domain\\User.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Domain\\User.cs",
-              "RelativeToolTip": "Domain\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T06:40:21.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WalletRepositoryLocalStorage.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\WalletRepositoryLocalStorage.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\WalletRepositoryLocalStorage.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\WalletRepositoryLocalStorage.cs",
-              "RelativeToolTip": "Infrastructure\\WalletRepositoryLocalStorage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T21:08:02.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\AppDbContext.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\AppDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T09:46:00.745Z",
+              "WhenOpened": "2024-05-30T08:38:20.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginUserRequestHandler.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Application\\LoginRequests\\LoginUserRequestHandler.cs",
-              "RelativeDocumentMoniker": "Application\\LoginRequests\\LoginUserRequestHandler.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Application\\LoginRequests\\LoginUserRequestHandler.cs",
-              "RelativeToolTip": "Application\\LoginRequests\\LoginUserRequestHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "NewsRepositoryLocalStorage.cs",
+              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\NewsRepositoryLocalStorage.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\NewsRepositoryLocalStorage.cs",
+              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\NewsRepositoryLocalStorage.cs",
+              "RelativeToolTip": "Infrastructure\\NewsRepositoryLocalStorage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T21:47:50.192Z",
+              "WhenOpened": "2024-05-30T08:35:35.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CryptoCurrencyRepositoryLocalStorage.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\CryptoCurrencyRepositoryLocalStorage.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\CryptoCurrencyRepositoryLocalStorage.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\CryptoCurrencyRepositoryLocalStorage.cs",
-              "RelativeToolTip": "Infrastructure\\CryptoCurrencyRepositoryLocalStorage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "DocumentIndex": 4,
+              "Title": "INewsRepository.cs",
+              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Domain\\INewsRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\INewsRepository.cs",
+              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Domain\\INewsRepository.cs",
+              "RelativeToolTip": "Domain\\INewsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T22:08:58.878Z",
+              "WhenOpened": "2024-05-30T08:35:19.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateNewsCommandHandler.cs",
+              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Application\\NewsRequests\\CreateNewsCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\NewsRequests\\CreateNewsCommandHandler.cs",
+              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Application\\NewsRequests\\CreateNewsCommandHandler.cs",
+              "RelativeToolTip": "Application\\NewsRequests\\CreateNewsCommandHandler.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAADwvx8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T08:21:11.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "News.cs",
+              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Domain\\News.cs",
+              "RelativeDocumentMoniker": "Domain\\News.cs",
+              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Domain\\News.cs",
+              "RelativeToolTip": "Domain\\News.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T08:17:44.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\User.cs",
+              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Domain\\User.cs",
+              "RelativeToolTip": "Domain\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T06:59:14.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetUserInfoController.cs",
+              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\WebApplication1\\Controllers\\GetUserInfoController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\GetUserInfoController.cs",
+              "ToolTip": "C:\\ProjectForOOP\\TestApp\\WebApplication1\\Controllers\\GetUserInfoController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\GetUserInfoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T06:39:52.387Z",
               "EditorCaption": ""
             },
             {
@@ -237,189 +180,75 @@
               "RelativeDocumentMoniker": "Infrastructure\\UserRepositoryLocalStorage.cs",
               "ToolTip": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\UserRepositoryLocalStorage.cs",
               "RelativeToolTip": "Infrastructure\\UserRepositoryLocalStorage.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA5wCcAAAAFAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowDAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:55:31.969Z"
+              "WhenOpened": "2024-05-30T06:37:20.647Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ICryptoCurrencyRepository.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Domain\\ICryptoCurrencyRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\ICryptoCurrencyRepository.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Domain\\ICryptoCurrencyRepository.cs",
-              "RelativeToolTip": "Domain\\ICryptoCurrencyRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T22:06:20.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Rate.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Domain\\Rate.cs",
-              "RelativeDocumentMoniker": "Domain\\Rate.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Domain\\Rate.cs",
-              "RelativeToolTip": "Domain\\Rate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:14:48.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "WalletAdditionRequest.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Application\\WalletAdditionRequests\\WalletAdditionRequest.cs",
-              "RelativeDocumentMoniker": "Application\\WalletAdditionRequests\\WalletAdditionRequest.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Application\\WalletAdditionRequests\\WalletAdditionRequest.cs",
-              "RelativeToolTip": "Application\\WalletAdditionRequests\\WalletAdditionRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T21:43:05.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LoginUserRequest.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Application\\LoginRequests\\LoginUserRequest.cs",
-              "RelativeDocumentMoniker": "Application\\LoginRequests\\LoginUserRequest.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Application\\LoginRequests\\LoginUserRequest.cs",
-              "RelativeToolTip": "Application\\LoginRequests\\LoginUserRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T22:31:54.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T20:02:07.267Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Application\\LoginRequests\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Application\\LoginRequests\\DependencyInjection.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Application\\LoginRequests\\DependencyInjection.cs",
-              "RelativeToolTip": "Application\\LoginRequests\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T22:30:32.694Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RegisterUserRequestHandler.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Application\\RegistrationRequests\\RegisterUserRequestHandler.cs",
-              "RelativeDocumentMoniker": "Application\\RegistrationRequests\\RegisterUserRequestHandler.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Application\\RegistrationRequests\\RegisterUserRequestHandler.cs",
-              "RelativeToolTip": "Application\\RegistrationRequests\\RegisterUserRequestHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T20:50:25.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T20:53:17.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Domain\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Domain\\IUserRepository.cs",
               "ToolTip": "C:\\ProjectForOOP\\TestApp\\Domain\\IUserRepository.cs",
               "RelativeToolTip": "Domain\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:55:10.881Z"
+              "WhenOpened": "2024-05-30T06:37:10.003Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Infrastructure.csproj",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Infrastructure\\Infrastructure.csproj",
-              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-09T19:36:40.649Z"
+              "DocumentIndex": 8,
+              "Title": "UserInfoRequestHandler.cs",
+              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Application\\UserInfoRequests\\UserInfoRequestHandler.cs",
+              "RelativeDocumentMoniker": "Application\\UserInfoRequests\\UserInfoRequestHandler.cs",
+              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Application\\UserInfoRequests\\UserInfoRequestHandler.cs",
+              "RelativeToolTip": "Application\\UserInfoRequests\\UserInfoRequestHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T06:35:14.953Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\WebApplication1\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\WebApplication1\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 11,
+              "Title": "UserInfoRequest.cs",
+              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Application\\UserInfoRequests\\UserInfoRequest.cs",
+              "RelativeDocumentMoniker": "Application\\UserInfoRequests\\UserInfoRequest.cs",
+              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Application\\UserInfoRequests\\UserInfoRequest.cs",
+              "RelativeToolTip": "Application\\UserInfoRequests\\UserInfoRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T20:54:14.104Z"
+              "WhenOpened": "2024-05-30T06:34:58.188Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\WebApplication1\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\WebApplication1\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 12,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Application\\UserInfoRequests\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Application\\UserInfoRequests\\DependencyInjection.cs",
+              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Application\\UserInfoRequests\\DependencyInjection.cs",
+              "RelativeToolTip": "Application\\UserInfoRequests\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T20:54:03.574Z"
+              "WhenOpened": "2024-05-30T06:34:40.627Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "HttpContextExtensions.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\WebApplication1\\HttpContextExtensions.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\HttpContextExtensions.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\WebApplication1\\HttpContextExtensions.cs",
-              "RelativeToolTip": "WebApplication1\\HttpContextExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 13,
+              "Title": "LoginUserRequestHandler.cs",
+              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Application\\LoginRequests\\LoginUserRequestHandler.cs",
+              "RelativeDocumentMoniker": "Application\\LoginRequests\\LoginUserRequestHandler.cs",
+              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Application\\LoginRequests\\LoginUserRequestHandler.cs",
+              "RelativeToolTip": "Application\\LoginRequests\\LoginUserRequestHandler.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDoAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T20:53:15.559Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Transfer.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Domain\\Transfer.cs",
-              "RelativeDocumentMoniker": "Domain\\Transfer.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Domain\\Transfer.cs",
-              "RelativeToolTip": "Domain\\Transfer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T17:00:25.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IWalletRepository.cs",
-              "DocumentMoniker": "C:\\ProjectForOOP\\TestApp\\Domain\\IWalletRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\IWalletRepository.cs",
-              "ToolTip": "C:\\ProjectForOOP\\TestApp\\Domain\\IWalletRepository.cs",
-              "RelativeToolTip": "Domain\\IWalletRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T16:55:00.811Z"
+              "WhenOpened": "2024-05-30T06:30:41.629Z",
+              "EditorCaption": ""
             }
           ]
         }
